@@ -9,7 +9,7 @@
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
+  color: white; /* was white */
 }
 
 h2 {
@@ -25,7 +25,7 @@ h3 {
 
 p {
   text-align: center;
-  color: gray;
+  color: lightgray;
   font-size: 14px;
 }
 
@@ -33,21 +33,38 @@ a {
   font-size: 18px;
   color: white;
 }
-.banner {
-  background-image: url("resources/images/the-flatiron-building.png");
+img {
+  opacity: .5;
+}
+
+div.banner {
+  background-image: url("../images/the-flatiron-building.png");
+    /* NOTE: must be relative to the CSS directory */
 }
 
 .bannertext {
   color: white;
-  background-color: gray;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
 }
 
 .footer {
-  color: white;
-  text-align: left;
   background-color: lightgray;
 }
 
-#home {
-  background-color: gray;
+.cright {
+  color: white;
+  text-align-last: left;
 }
+
+.footernav {
+  color: white;
+  text-align: center;
+}
+
+/*#home {
+  background-color: gray;
+}*/

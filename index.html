@@ -13,6 +13,9 @@
   </head>
 
   <!-- ***** Main body:
+    The .banner class is used to place a background image. The div is used to
+    control the content that overlays the image. In the top banner, this is the
+    webpage title text and the nav links
     -->
   <body>
     <div class="banner" id="home">
@@ -27,33 +30,33 @@
       </nav>
     </div>
 
+    <!-- The first major section, 'Our Process', which consists of three
+      subsections: Identify, Understand and Execute.
+    -->
     <h2 id="process">Our Process</h2>
 
     <!-- ***** Identify section -->
+    <img src="resources/images/identify.svg" alt="Identify icon">
+    <h3>Identify</h3>
     <p>
-      <img src="resources/images/identify.svg" alt="Identify icon">
-      <h3>Identify</h3>
-
       We focus on the most important details.
     </p>
 
     <!-- ***** Understand section -->
+    <img src="resources/images/understand.svg" alt="Understand icon">
+    <h3>Understand</h3>
     <p>
-      <img src="resources/images/understand.svg" alt="Understand icon">
-      <h3>Understand</h3>
-
       We study our projects inside and out.
     </p>
 
     <!-- ***** Execute section -->
+    <img src="resources/images/execute.svg" alt="Execute icon">
+    <h3>Execute</h3>
     <p>
-      <img src="resources/images/execute.svg" alt="Execute icon">
-      <h3>Execute</h3>
-
       We put everything we have into our work.
     </p>
 
-    <!-- ***** End section
+    <!-- ***** The second major section, the business information section
          This section starts with a full width header/banner, followed by
          business information: Portfolio, Team and Contact information
       -->
@@ -91,15 +94,24 @@
       </p>
     </div>
 
-    <!-- ***** Footer information: copyright and nav section
+    <!-- ***** Finally, the Footer information: copyright and nav section
+       Additional classes and blocks allow flexibility in design changes
     -->
     <div class="footer">
-      &copy; Broadway 2016
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#team">Team</a>
-      <a href="#contact">Contact</a>
+    <table>
+      <tr>
+        <td class="cright">&copy; Broadway 2016</td>
+        <td class="footernav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </td>
+        <td></td>
+      </tr>
+    </table>
     </div>
+    <!-- Clear the left/right float in the CSS code -->
   </body>
 </html>
