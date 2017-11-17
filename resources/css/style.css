@@ -3,4 +3,33 @@
 
  * {
    font-family: Helvetica, sans-serif;
+   text-align: center;
  }
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+.banner {
+  background-image: url("resources/images/the-flatiron-building.png")
+}
+
+.bannertext {
+
+}
+
+.footer {
+
+}
