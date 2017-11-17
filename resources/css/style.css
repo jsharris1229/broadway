@@ -7,29 +7,47 @@
  }
 
 h1 {
-
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
 }
 
 h2 {
-
+  font-size: 32px;
+  font-weight: bold;
+  color: gray;
 }
 
 h3 {
-
+  font-size: 23px;
+  color: gray;
 }
 
 p {
-
+  text-align: center;
+  color: gray;
+  font-size: 14px;
 }
 
+a {
+  font-size: 18px;
+  color: white;
+}
 .banner {
-  background-image: url("resources/images/the-flatiron-building.png")
+  background-image: url("resources/images/the-flatiron-building.png");
 }
 
 .bannertext {
-
+  color: white;
+  background-color: gray;
 }
 
 .footer {
+  color: white;
+  text-align: left;
+  background-color: lightgray;
+}
 
+#home {
+  background-color: gray;
 }
